@@ -45,6 +45,7 @@ class ViewController: UIViewController {
             case "*":
                 resultado = "\(numArray[0] * numArray[1])"
             case "/":
+                //Si el segundo valor es cero, cambia el resultado a cero
                 if numArray[1] == 0.0 { resultado = "0"}
                 else {
                     resultado = "\(numArray[0] / numArray[1])"
